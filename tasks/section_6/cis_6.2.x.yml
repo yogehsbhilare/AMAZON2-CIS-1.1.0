@@ -20,7 +20,7 @@
             msg:
                 - "ALERT! There are users that are not using shadow passwords. Please address to conform to CIS standards"
                 - "The users below are the out of compliance users"
-                - "{{ amazon2_6_2_1_shadow.stdout_lines }}"
+                - "{{ amazon2_6_2_1_shadow }}"
         when: amazon2_6_2_1_shadow | length > 0
   when:
       - amazon2cis_rule_6_2_1
