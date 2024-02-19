@@ -149,7 +149,7 @@ amazon2cis_rule_2_3: true
 # Section 3 rules
 # Section 3 is Network Configuration (Disable unused network protocols, Network parameters (host), Network parameters (Host and Router), Uncommon Network Protocols, Firewall Configuration, and Configure iptables)
 amazon2cis_rule_3_1_1: true
-amazon2cis_rule_3_1_2: true
+amazon2cis_rule_3_1_2: false
 amazon2cis_rule_3_2_1: true
 amazon2cis_rule_3_2_2: true
 amazon2cis_rule_3_3_1: true
