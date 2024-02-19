@@ -13,7 +13,7 @@
       - name: "6.2.1 | PATCH | Ensure accounts in /etc/passwd use shadow passwords | Good News"
         debug:
             msg: "Good News!!  No Unshadowed passwords have been found"
-        when: amazon2_6_2_1_shadow.stdout | length == 0
+        when: amazon2_6_2_1_shadow | length == 0
 
       - name: "6.2.1 | PATCH | Ensure accounts in /etc/passwd use shadow passwords | Alert on no shadow passwords"
         debug:
