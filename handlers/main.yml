@@ -10,8 +10,8 @@
 
 - name: remount dev_shm
   command: mount -o remount /dev/shm
-  args:
-      warn: false
+#  args:
+#      warn: false
 
 - name: remount var_tmp
   command: mount -o remount /var/tmp
